@@ -5,6 +5,8 @@ const bitchord = createBitChordAuth({
         'bitchord-hires-addon.de.deplexo.com',
         'bitchord-hires-addon.vercel.app',
         'bitchord-hires-addon-6upb-7twfu3ku3-tedwok.vercel.app',
+
+'bitchord-hires-addon-6upb-722hfegtf-tedwok.vercel.app',
     ],
 });
 const MANIFEST = {

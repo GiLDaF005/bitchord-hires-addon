@@ -1,7 +1,11 @@
 import { searchAll, resolveStream, health } from '../lib/router.js';
 import { createBitChordAuth } from '../lib/bitchord-addon-auth.mjs';
 const bitchord = createBitChordAuth({
-    hosts: ['bitchord-hires-addon.de.deplexo.com', 'bitchord-hires-addon.vercel.app'],
+    hosts: [
+        'bitchord-hires-addon.de.deplexo.com',
+        'bitchord-hires-addon.vercel.app',
+        'bitchord-hires-addon-6upb-7twfu3ku3-tedwok.vercel.app',
+    ],
 });
 const MANIFEST = {
     id: 'dev.akira.bitchord-hires',
